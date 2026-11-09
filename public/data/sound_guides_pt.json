@@ -1,0 +1,302 @@
+[
+  {
+    "id": "guide_tones",
+    "slug": "tones_overview",
+    "category": "tones",
+    "titlePt": "A Arquitetura dos 4 Tons e do Tom Neutro",
+    "titleEn": "Architecture of the 4 Tones and Neutral Tone",
+    "subtitlePt": "Como dominar as alturas Chao (1–5) e evitar a entonação interrogativa do Português",
+    "subtitleEn": "Master Chao pitch levels (1–5) and avoid English/Portuguese question intonation bias",
+    "ipaSymbols": [
+      "/˥˥/",
+      "/˧˥/",
+      "/˨˩˦/",
+      "/˥˩/",
+      "/·/"
+    ],
+    "chaoNotation": [
+      "55",
+      "35",
+      "214",
+      "51",
+      "2"
+    ],
+    "tonguePositionPt": "Os tons são gerados pela tensão e relaxamento das pregas vocais na laringe, não pela posição da língua! O Tom 1 exige pregas esticadas no registro agudo estável (55); o Tom 2 uma rampa ascendente constante (35); o Tom 3 relaxamento máximo até o registro basal (214/21); o Tom 4 um comando de término brusco (51).",
+    "tonguePositionEn": "Tones are regulated strictly by vocal fold tension in the larynx, not tongue position. Tone 1 requires high sustained tension (55); Tone 2 continuous rise (35); Tone 3 lowest possible vocal register (214/21); Tone 4 abrupt dropping release (51).",
+    "brazilianTrapPt": "A Maior Armadilha Brasileira: Em português, subimos o tom apenas para fazer perguntas ('Você vai?'). Por isso, lusófonos tendem a hesitar ou 'perguntar' sempre que tentam fazer o 2º tom (35). Além disso, falantes de português confundem a descida do 4º tom com estresse de raiva ou exclamação, quando na verdade é apenas uma descida curta e limpa.",
+    "brazilianTrapEn": "Portuguese/English speakers instinctively associate rising pitch with questions. In Mandarin, Tone 2 (35) is an affirmative lexical tone. Tone 4 (51) is often mistaken for shouting rather than a controlled downward pitch glide.",
+    "paperTestOrTrickPt": "O Truque do Dó-Ré-Mi: Imagine uma escala musical de 5 notas: 1 (grave), 3 (médio), 5 (agudo). O Tom 1 é sustentar a nota 5 ('lááá'). O Tom 2 é deslizar de 3 para 5 (como quem diz 'hã?!'). O Tom 3 é a voz de bocejo grave (nota 1). O Tom 4 é como dizer 'Não!' resoluto da nota 5 direto para a nota 1.",
+    "paperTestOrTrickEn": "The 5-Step Musical Scale Trick: Step 5 is high pitch, step 1 is lowest bass. T1 sustains note 5; T2 glides 3->5 like 'Huh?!'; T3 hits bottom register note 1; T4 drops sharply from 5 to 1 like a definitive 'No!'.",
+    "svgDiagramType": "pitch_chao_5",
+    "keyPairsIds": [
+      "pair_m_tone_1_4",
+      "pair_m_tone_2_3",
+      "pair_m_tone_1_2"
+    ],
+    "demoSyllables": [
+      {
+        "label": "1º Tom (55)",
+        "hanzi": "妈",
+        "pinyin": "mā",
+        "ipa": "/ma˥˥/",
+        "audioKey": "syllables/human_female/ma1.mp3"
+      },
+      {
+        "label": "2º Tom (35)",
+        "hanzi": "麻",
+        "pinyin": "má",
+        "ipa": "/ma˧˥/",
+        "audioKey": "syllables/human_female/ma2.mp3"
+      },
+      {
+        "label": "3º Tom (214)",
+        "hanzi": "马",
+        "pinyin": "mǎ",
+        "ipa": "/ma˨˩˦/",
+        "audioKey": "syllables/human_female/ma3.mp3"
+      },
+      {
+        "label": "4º Tom (51)",
+        "hanzi": "骂",
+        "pinyin": "mà",
+        "ipa": "/ma˥˩/",
+        "audioKey": "syllables/human_female/ma4.mp3"
+      }
+    ]
+  },
+  {
+    "id": "guide_aspiration",
+    "slug": "aspiration_contrast",
+    "category": "aspiration",
+    "titlePt": "Oclusivas e Africadas: O Contraste Crítico de Aspiração",
+    "titleEn": "Stops and Affricates: The Crucial Aspiration Contrast",
+    "subtitlePt": "Por que o 'b' chinês parece 'p' e o 'p' chinês solta um sopro explosivo",
+    "subtitleEn": "Why Chinese 'b' sounds like 'p' and Chinese 'p' emits an explosive puff",
+    "ipaSymbols": [
+      "/p/",
+      "/pʰ/",
+      "/t/",
+      "/tʰ/",
+      "/k/",
+      "/kʰ/",
+      "/ts/",
+      "/tsʰ/",
+      "/ʈʂ/",
+      "/ʈʂʰ/",
+      "/tɕ/",
+      "/tɕʰ/"
+    ],
+    "tonguePositionPt": "No Mandarim Padrão, a oposição fonológica NÃO é sonora vs surda (como em português: bola vs pola). Todas as oclusivas iniciais chinesas são SURDAS (sem vibração de cordas vocais no início). A diferença é o Voice Onset Time (VOT): 'b, d, g' não soltam ar (/p, t, k/), enquanto 'p, t, k' liberam uma forte rajada de ar pós-soltura (/pʰ, tʰ, kʰ/).",
+    "tonguePositionEn": "In Putonghua, phonological opposition is not voiced vs voiceless. All initial stops are voiceless; the contrast lies entirely in aspiration (VOT). Unaspirated (b, d, g) release zero air; aspirated (p, t, k) release an intense burst.",
+    "brazilianTrapPt": "A Armadilha do 'B' e 'D' Sonoros: Brasileiros tendem a vibrar as cordas vocais logo no início ao falar 'b' e 'd' (como em 'bom' e 'dia'). Em chinês, se você disser 'bā' com as cordas vibrando antes da soltura labial, soará estrangeiro. Deve ser uma soltura seca de lábios sem sopro e sem vibração precoce.",
+    "brazilianTrapEn": "Speakers of Romance languages voice initial 'b' and 'd' immediately. In Mandarin, 'b' is completely voiceless unaspirated [p], while 'p' is heavily aspirated [pʰ].",
+    "paperTestOrTrickPt": "O Teste da Folha de Papel (Tissue Test): Segure uma folha fina de papel sulfite ou papel higiênico a 5 cm da boca. Ao dizer 'bā' (八), a folha NÃO DEVE SE MOVER em absoluto. Ao dizer 'pā' (趴), a folha DEVE DOBRAR COM FORÇA para frente pelo sopro de ar!",
+    "paperTestOrTrickEn": "The Tissue Paper Test: Hold a sheet of paper 5cm from your lips. Pronouncing 'bā' (八) must NOT move the paper at all. Pronouncing 'pā' (趴) must vigorously blow the sheet forward!",
+    "svgDiagramType": "sagittal_bilabial_aspiration",
+    "keyPairsIds": [
+      "pair_asp_b_p_ba",
+      "pair_asp_d_t_da",
+      "pair_asp_g_k_ge"
+    ],
+    "demoSyllables": [
+      {
+        "label": "Não-aspirado (b)",
+        "hanzi": "八",
+        "pinyin": "bā",
+        "ipa": "/pa˥˥/",
+        "audioKey": "syllables/human_female/ba1.mp3"
+      },
+      {
+        "label": "Aspirado (p)",
+        "hanzi": "趴",
+        "pinyin": "pā",
+        "ipa": "/pʰa˥˥/",
+        "audioKey": "syllables/human_female/pa1.mp3"
+      },
+      {
+        "label": "Não-aspirado (d)",
+        "hanzi": "答",
+        "pinyin": "dā",
+        "ipa": "/ta˥˥/",
+        "audioKey": "syllables/human_female/da1.mp3"
+      },
+      {
+        "label": "Aspirado (t)",
+        "hanzi": "他",
+        "pinyin": "tā",
+        "ipa": "/tʰa˥˥/",
+        "audioKey": "syllables/human_female/ta1.mp3"
+      }
+    ]
+  },
+  {
+    "id": "guide_retroflex_palatal",
+    "slug": "retroflex_palatal_dental",
+    "category": "retroflex_palatal_dental",
+    "titlePt": "As Três Séries Sibilantes: Dentais (z/c/s), Retroflexas (zh/ch/sh/r) e Palatais (j/q/x)",
+    "titleEn": "The 3 Sibilant Series: Dentals (z/c/s), Retroflex (zh/ch/sh/r), Palatals (j/q/x)",
+    "subtitlePt": "Domine a ponta curvada para trás (舌尖后音) e o dorso elevado (舌面前音)",
+    "subtitleEn": "Master tongue tip curled back (retroflex) versus flattened tongue blade (alveolo-palatal)",
+    "ipaSymbols": [
+      "/ts/",
+      "/tsʰ/",
+      "/s/",
+      "/ʈʂ/",
+      "/ʈʂʰ/",
+      "/ʂ/",
+      "/ʐ/",
+      "/tɕ/",
+      "/tɕʰ/",
+      "/ɕ/"
+    ],
+    "tonguePositionPt": "1) Dentais (z, c, s): A ponta da língua toca os dentes incisivos superiores/alvéolos anteriores.\n2) Retroflexas (zh, ch, sh, r): A ponta da língua curva-se para cima e para trás, tocando a transição entre os alvéolos e o palato duro. Os lábios ficam levemente projetados.\n3) Alvéolo-palatais (j, q, x): A ponta da língua fica ABAIXO, atrás dos dentes inferiores, enquanto o CORPO/DORSO da língua sobe plano contra o céu da boca anterior.",
+    "tonguePositionEn": "1) Dentals (z, c, s): Tip at upper teeth/alveolar ridge.\n2) Retroflex (zh, ch, sh, r): Tip curled upward and back against hard palate ridge.\n3) Alveolo-palatals (j, q, x): Tip rests DOWN behind lower incisors while tongue body arches flatly against the hard palate.",
+    "brazilianTrapPt": "A Confusão Carioca e Nordestina com 'ch' e 'x': No Brasil, 'x' e 'ch' soam como [ʃ] (postalveolar relaxado). Ao tentar falar 'xī' ou 'shī', o brasileiro mistura os dois! Atenção máxima: 'j, q, x' SÓ se combinam com as vogais 'i' e 'ü' (/y/). Já 'zh, ch, sh' NUNCA se combinam com /i/ verdadeiro (o 'i' de 'zhi, chi, shi' é na verdade uma vogal retroflexa apical [ʐ̩]).",
+    "brazilianTrapEn": "Learners often collapse 'x' [ɕ] and 'sh' [ʂ] into a generic English/Portuguese 'sh' [ʃ]. Critical rule: j/q/x only pair with /i/ and /y/; zh/ch/sh pair with the apical vowel [ʐ̩], never true [i].",
+    "paperTestOrTrickPt": "O Truque do Sorriso vs Bico: Para 'x' (西), dê um sorriso bem largo e encoste a ponta da língua nos dentes de baixo. Para 'sh' (诗), faça um leve bico com os lábios e dobre a ponta da língua para trás em concha.",
+    "paperTestOrTrickEn": "The Smile vs Pout Trick: For 'x' [ɕ], spread lips into a wide grin with tip pressed behind lower teeth. For 'sh' [ʂ], slightly round lips and curl tip back.",
+    "svgDiagramType": "sagittal_retroflex_vs_palatal",
+    "keyPairsIds": [
+      "pair_place_s_sh_si_shi",
+      "pair_place_x_sh_xi_shi",
+      "pair_place_z_zh_zi_zhi"
+    ],
+    "demoSyllables": [
+      {
+        "label": "Dental (s)",
+        "hanzi": "四",
+        "pinyin": "sì",
+        "ipa": "/sz̩˥˩/",
+        "audioKey": "syllables/human_female/si4.mp3"
+      },
+      {
+        "label": "Retroflexa (sh)",
+        "hanzi": "十",
+        "pinyin": "shí",
+        "ipa": "/ʂʐ̩˧˥/",
+        "audioKey": "syllables/human_female/shi2.mp3"
+      },
+      {
+        "label": "Alvéolo-palatal (x)",
+        "hanzi": "西",
+        "pinyin": "xī",
+        "ipa": "/ɕi˥˥/",
+        "audioKey": "syllables/human_female/xi1.mp3"
+      }
+    ]
+  },
+  {
+    "id": "guide_nasal_codas",
+    "slug": "nasal_codas_contrast",
+    "category": "nasal_codas",
+    "titlePt": "Finais Nasais: Alveolar (-n) vs Velar (-ng)",
+    "titleEn": "Nasal Codas: Alveolar (-n) vs Velar (-ng)",
+    "subtitlePt": "A armadilha da nasalização vocálica brasileira vs o selamento articulatório do Mandarim",
+    "subtitleEn": "Overcoming Portuguese nasal vowel blending: mandatory tongue closure in Mandarin",
+    "ipaSymbols": [
+      "/an/",
+      "/ɑŋ/",
+      "/ən/",
+      "/ɤŋ/",
+      "/in/",
+      "/iŋ/"
+    ],
+    "tonguePositionPt": "1) Final -n (Alveolar): No final da emissão, a ponta da língua é OBRIGADA a subir e selar firmemente a gengiva superior (alvéolos), interrompendo a saída de ar pela boca e forçando 100% do ar pelo nariz.\n2) Final -ng (Velar): A ponta da língua permanece embaixo, e a PARTE POSTERIOR (dorso) sobe para selar o véu palatino (palato mole / campainha). A vogal anterior torna-se mais posterior e aberta (/ɑ/ em vez de /a/).",
+    "tonguePositionEn": "1) -n (Alveolar): Tongue tip must physically seal against the alveolar ridge, completely shutting oral airflow.\n2) -ng (Velar): Tip remains down while tongue back seals against the soft velum, backing the preceding vowel (/ɑŋ/).",
+    "brazilianTrapPt": "O Hábito de Não Tocar a Língua: No português (como em 'irmã', 'pão', 'canto'), não encostamos a língua no céu da boca para nasalizar — simplesmente soltamos ar pelo nariz enquanto mantemos a vogal aberta! Se você fizer isso em chinês, os nativos NÃO saberão se você disse 'shān' (montanha) ou 'shāng' (ferimento).",
+    "brazilianTrapEn": "Portuguese nasal vowels are produced without tongue contact. In Mandarin, omitting the physical lingual seal renders -n and -ng indistinguishable.",
+    "paperTestOrTrickPt": "O Teste da Trava na Língua: Ao pronunciar 'ān' (安), congele a boca no final: sinta a ponta da língua colada nos dentes de cima como num 'N' do inglês. Ao pronunciar 'āng' (昂), congele com a boca aberta e a garganta travada como no final de 'ping-pong'.",
+    "paperTestOrTrickEn": "The Freeze Trick: For 'ān', freeze speech at the end: confirm tongue tip is firmly glued to upper ridge. For 'āng', freeze with mouth open and back of throat closed like 'sing'.",
+    "svgDiagramType": "sagittal_alveolar_vs_velar_nasal",
+    "keyPairsIds": [
+      "pair_nasal_an_ang_shan",
+      "pair_nasal_en_eng_chen",
+      "pair_nasal_in_ing_bin"
+    ],
+    "demoSyllables": [
+      {
+        "label": "Alveolar (-an)",
+        "hanzi": "山",
+        "pinyin": "shān",
+        "ipa": "/ʂan˥˥/",
+        "audioKey": "syllables/human_female/shan1.mp3"
+      },
+      {
+        "label": "Velar (-ang)",
+        "hanzi": "伤",
+        "pinyin": "shāng",
+        "ipa": "/ʂɑŋ˥˥/",
+        "audioKey": "syllables/human_female/shang1.mp3"
+      },
+      {
+        "label": "Alveolar (-in)",
+        "hanzi": "金",
+        "pinyin": "jīn",
+        "ipa": "/tɕin˥˥/",
+        "audioKey": "syllables/human_female/jin1.mp3"
+      },
+      {
+        "label": "Velar (-ing)",
+        "hanzi": "京",
+        "pinyin": "jīng",
+        "ipa": "/tɕiŋ˥˥/",
+        "audioKey": "syllables/human_female/jing1.mp3"
+      }
+    ]
+  },
+  {
+    "id": "guide_umlaut_vowels",
+    "slug": "umlaut_rounded_vowel",
+    "category": "vowels_umlaut",
+    "titlePt": "A Vogal Arredondada Anterior: 'ü' (/y/) vs 'u' (/u/)",
+    "titleEn": "Anterior Rounded Vowel: 'ü' (/y/) vs 'u' (/u/)",
+    "subtitlePt": "Como emitir perfeitamente o som 'ü' (como em lǜ, nǚ, qù, xué)",
+    "subtitleEn": "How to execute the high front rounded vowel 'ü' (/y/) flawlessly",
+    "ipaSymbols": [
+      "/y/",
+      "/u/"
+    ],
+    "tonguePositionPt": "A vogal 'ü' (/y/) é acusticamente fascinante: o corpo e a ponta da sua língua ficam exatamente na posição de um 'i' alto anterior (/i/), mas os lábios ficam rigidamente arredondados e projetados para a frente em um bico estreito (como em /u/)!",
+    "tonguePositionEn": "'ü' (/y/) shares the exact high-front tongue posture of /i/, but paired with tight pursed lip-rounding like /u/.",
+    "brazilianTrapPt": "A Pronúncia como 'U' ou Ditongo 'IU': Brasileiros sem treino tendem a pronunciar 'lǜ' como 'lu' ou como 'liu'. Isso altera completamente a palavra ('lù' é estrada, 'lǜ' é verde; 'nù' é fúria, 'nǚ' é mulher!). Lembre-se também da regra ortográfica: após j, q, x, y, os dois pontinhos são omitidos na grafia (ju, qu, xu, yu), mas o som é 100% 'ü' (/y/)!",
+    "brazilianTrapEn": "Learners often substitute /u/ or diphthong /iu/. In Mandarin, 'lù' (road) and 'lǜ' (green) are completely different morphemes. After j, q, x, y, the umlaut dots are omitted orthographically but pronounced /y/.",
+    "paperTestOrTrickPt": "O Truque do Apito sem Mexer a Língua: Diga um 'iiii' longo e contínuo. Enquanto sustenta o som, NÃO MOVA A LÍNGUA DE MODO ALGUM; apenas feche e arredonde os lábios para a frente em forma de canudinho ou biquinho. O som instantaneamente se transformará no 'ü' puro!",
+    "paperTestOrTrickEn": "The Continuous Whistle Transition: Sustain a continuous 'eeee' (/i/). Without moving your tongue an millimeter, purse your lips forward into a tight circular trumpet. The sound effortlessly shifts into pure /y/!",
+    "svgDiagramType": "vowel_trapezoid_u_vs_v",
+    "keyPairsIds": [
+      "pair_vowel_u_v_lu_lv",
+      "pair_vowel_u_v_nu_nv",
+      "pair_vowel_u_v_zhu_ju"
+    ],
+    "demoSyllables": [
+      {
+        "label": "Vogal Posterior (u)",
+        "hanzi": "路",
+        "pinyin": "lù",
+        "ipa": "/lu˥˩/",
+        "audioKey": "syllables/human_female/lu4.mp3"
+      },
+      {
+        "label": "Vogal Anterior (ü)",
+        "hanzi": "绿",
+        "pinyin": "lǜ",
+        "ipa": "/ly˥˩/",
+        "audioKey": "syllables/human_female/lv4.mp3"
+      },
+      {
+        "label": "Vogal Posterior (nu)",
+        "hanzi": "怒",
+        "pinyin": "nù",
+        "ipa": "/nu˥˩/",
+        "audioKey": "syllables/human_female/nu4.mp3"
+      },
+      {
+        "label": "Vogal Anterior (nü)",
+        "hanzi": "女",
+        "pinyin": "nǚ",
+        "ipa": "/ny˨˩˦/",
+        "audioKey": "syllables/human_female/nv3.mp3"
+      }
+    ]
+  }
+]
