@@ -87,3 +87,10 @@ Na **Versão 2.0**, o sistema adota:
 3. **对比 · Laboratório de Comparação**: Comparador lado a lado de sílabas, dissílabos, Tone Sandhi, Guias Articulatórios PT-BR e Tabela Pinyin 410+.
 4. **同窗 · Multiplayer & Duelos**: Salas Síncronas Ao Vivo (1v1, Arena de Grupo e Parceiro de Escuta Cega), Duelos Assíncronos contra Fantasma, Metas Coletivas da Irmandade e Exames Imperiais (科举 *Kējǔ*).
 5. **竹简 · Meu Registro**: Estatísticas acústicas, matriz de confusão, radar diagnóstico, treino de produção oral $F_0$ e histórico de partidas.
+
+## 6. Governança de Produção, CI/CD e Updates 100% Autônomos
+- **Ambiente 24/7 Oficial**: Vercel (`https://tingli-lab.vercel.app`) + Supabase Cloud (`doizxoucpuaipitlvfvx`).
+- **Invariante de Dados Zero-Loss**: Proibido `DROP TABLE` ou `TRUNCATE`. Migrações exclusivamente aditivas e idempotentes (`IF NOT EXISTS`).
+- **Camada de Dados Unificada**: Todo acesso ao banco deve usar `src/lib/cloud-db.ts` (API REST HTTPS em produção na nuvem, fallback SQLite apenas local).
+- **Pipeline de Teste Automatizado**: Executar `npm run test:prod` para validar todas as rotas e saúde do banco remoto após cada deploy.
+- **Zero-Secrets Invariant**: Tokens de automação (GitHub, Supabase, Vercel) residem estritamente em `.env.local` e variáveis de ambiente da plataforma, nunca rastreados pelo Git.

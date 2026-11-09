@@ -7,7 +7,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "test:prod": "node scripts/test_deployment_integrity.js"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.119.0",
