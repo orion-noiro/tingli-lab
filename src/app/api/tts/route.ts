@@ -229,10 +229,10 @@ export async function GET(req: NextRequest): Promise<NextResponse> {
   // 1. Check existing valid speed-matched files on disk
   for (const cand of candidates) {
     try {
-      if (fs.existsSync(cand.filePath)) {
-        const stat = fs.statSync(cand.filePath);
+      if (fs.existsSync(/*turbopackIgnore: true*/ cand.filePath)) {
+        const stat = fs.statSync(/*turbopackIgnore: true*/ cand.filePath);
         if (stat.isFile() && stat.size >= cand.minBytes) {
-          const buf = fs.readFileSync(cand.filePath);
+          const buf = fs.readFileSync(/*turbopackIgnore: true*/ cand.filePath);
           return buildAudioResponse(buf, cand.tag);
         }
       }
@@ -311,8 +311,8 @@ export async function GET(req: NextRequest): Promise<NextResponse> {
 
   for (const fb of fallbackFiles) {
     try {
-      if (fs.existsSync(fb) && fs.statSync(fb).size > 1500) {
-        const buf = fs.readFileSync(fb);
+      if (fs.existsSync(/*turbopackIgnore: true*/ fb) && fs.statSync(/*turbopackIgnore: true*/ fb).size > 1500) {
+        const buf = fs.readFileSync(/*turbopackIgnore: true*/ fb);
         return buildAudioResponse(buf, "local-fallback");
       }
     } catch {
